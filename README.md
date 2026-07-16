@@ -1,4 +1,4 @@
-# 🎉 Event Planner Cost Calculator
+# Event Planner Cost Calculator
 
 A responsive front-end web application that allows users to estimate event planning costs instantly.
 
