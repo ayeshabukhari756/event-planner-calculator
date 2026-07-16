@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Event Planner Calculator</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎉 Event Planner Calculator</h1>
+
+<p class="subtitle">
+Plan your event and get an instant quotation.
+</p>
+
+<h2>Event Type</h2>
+
+<select id="eventType">
+
+<option>Wedding</option>
+
+<option>Birthday</option>
+
+<option>Corporate</option>
+
+<option>Engagement</option>
+
+<option>Anniversary</option>
+
+</select>
+
+<h2>Choose Services</h2>
+
+<div class="service">
+
+<label>
+
+<input type="checkbox" id="decoration">
+
+🎈 Basic Decoration
+
+</label>
+
+<span>$150</span>
+
+</div>
+
+<div class="service">
+
+<label>
+
+<input type="checkbox" id="dj">
+
+🎧 DJ / Sound System
+
+</label>
+
+<span>$200</span>
+
+</div>
+
+<div class="service">
+
+<label>
+
+<input type="checkbox" id="photo">
+
+📸 Photography
+
+</label>
+
+<span>$300</span>
+
+</div>
+
+<div class="service">
+
+<label>
+
+<input type="checkbox" id="video">
+
+🎥 Videography
+
+</label>
+
+<span>$400</span>
+
+</div>
+
+<div class="service">
+
+<label>
+
+<input type="checkbox" id="flowers">
+
+💐 Flower Decoration
+
+</label>
+
+<span>$120</span>
+
+</div>
+
+<div class="service">
+
+<label>
+
+<input type="checkbox" id="lighting">
+
+💡 Lighting
+
+</label>
+
+<span>$180</span>
+
+</div>
+
+<div class="service">
+
+<label>
+
+<input type="checkbox" id="cake">
+
+🎂 Cake
+
+</label>
+
+<span>$100</span>
+
+</div>
+
+<div class="service">
+
+<label>
+
+<input type="checkbox" id="catering">
+
+🍽 Catering ($15 per Guest)
+
+</label>
+
+</div>
+
+<input
+type="number"
+id="guests"
+placeholder="Number of Guests">
+
+<h2>Coupon</h2>
+
+<input
+type="text"
+id="coupon"
+placeholder="Enter Coupon (SAVE10)">
+
+<div class="summary">
+
+<h2>Order Summary</h2>
+
+<p id="summary">
+
+No services selected.
+
+</p>
+
+<hr>
+
+<p>Subtotal :
+<span id="subtotal">$0</span>
+</p>
+
+<p>Discount :
+<span id="discount">$0</span>
+</p>
+
+<p>Tax (5%) :
+<span id="tax">$0</span>
+</p>
+
+<h1 id="total">$0</h1>
+
+<button>
+
+Request Quote
+
+</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
